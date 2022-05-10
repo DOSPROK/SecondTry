@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+
+<html lang="eu-ru">
+<head>
+    <meta charset="utf-8">
+    <title>DOSPROK: Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/userinfo-check.js" type="text/javascript"></script>
+    <script src="js/calculator.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="textColor">
+    <header>
+            <div><h1 id="mainPhrase">DOSPROK's Developer Personal Page</h1></div>
+        <nav>
+            <div>
+            <a href="https://steamcommunity.com/id/DOSPROK" target="_blank"><img title="Logo of the DOSPROK" id="logo"
+                                                                                 class="logo"
+                                                                                 src="img/logoMain.jpg"
+                                                                                 alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk17lJ6ks84r4fVFTmjv6SAJuRVtkGoFEifQ&usqp=CAU"></a>
+            <div class="logo-description">It's place for my logo</div>
+        </div>
+        <div><a href="about.html" target="_blank" class="about">About me</a></div>
+        </nav>
+    </header>
+    <div>
+        <hr>
+        <label for="firstName">Your First Name: </label><input type="text" value=""
+                                                               class="firstName inputArea inputDefaultClass"
+                                                               id="firstName"
+                                                               placeholder="Enter First Name">
+        <br>
+        <label for="secondName">Your Second Name: </label><input type="text" value=""
+                                                                 class="secondName inputArea inputDefaultClass"
+                                                                 id="secondName"
+                                                                 placeholder="Enter Second Name">
+        <br>
+        <label for="hometown">Your Hometown: </label>
+        <select class="hometown inputDefaultClass" id="hometown" name="selectHometown">
+            <option selected="selected">Choose your town</option>
+            <option>Voronezh</option>
+            <option>Moscow</option>
+            <option>Minsk</option>
+        </select>
+    </div>
+    <div>
+        <button id="firstNameButton">
+            Check First Name
+        </button>
+        <br>
+        <button id="secondNameButton">
+            Check Second Name
+        </button>
+        <br>
+        <button id="hometownButton">
+            Check Hometown
+        </button>
+    </div>
+    <div class="horLine">
+        <hr>
+    </div>
+    <div class="handmadeCalculator">
+        <div class="allInputBlock">
+            <div class="inputBlock">
+                <label for="calcInputFirst" class="inputNumber" id="inputNumber1">Number 1:</label>
+                <input class="calcInput" id="calcInputFirst">
+            </div>
+            and
+            <div class="inputBlock">
+                <label for="calcInputSecond" class="inputNumber" id="inputNumber2">Number 2:</label>
+                <input class="calcInput" id="calcInputSecond">
+            </div>
+        </div>
+        <div class="mathButtonsBlock">
+            <button class="mathButtons" id="addButton">+</button>
+            <button class="mathButtons" id="subtractButton">-</button>
+            <button class="mathButtons" id="multiplicationButton">*</button>
+            <button class="mathButtons" id="divButton">/</button>
+        </div>
+        <div class="resultBlock" id="result">
+            <label for="showResult">Result:</label>
+            <input class="resultOutput" id="showResult">
+        </div>
+        <div class="horLine">
+            <hr>
+        </div>
+        <div class="logBlock" id="log">
+            <label for="showLog" id="resultWord">Log Area:</label>
+            <textarea class="logResultArea calcOutput" id="showLog"></textarea>
+        </div>
+    </div>
+    <footer>
+        <div class="bottomInfo">
+
+        </div>
+    </footer>
+</div>
+</body>
+</html>
