@@ -1,0 +1,144 @@
+html {
+    background-color: #22272e;
+}
+
+body {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    padding: 2px;
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.textColor {
+    color: #adbac7;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header #mainPhrase {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .about {
+    color: #adbac7;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+header #mainPhrase {
+    margin: 0 auto;
+}
+
+header .about {
+    margin-right: auto;
+}
+
+.handmadeCalculator {
+    display: inline-block;
+    text-align: center;
+    border: 3px dashed #444c56;
+    background-color: #2d333b;
+    width: 500px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.handmadeCalculator .mathButtonsBlock {
+    padding: 15px;
+}
+
+.handmadeCalculator .numberBlock {
+    padding-top: 15px;
+}
+
+.handmadeCalculator .allInputBlock .inputBlock {
+    display: inline-block;
+    padding: 15px;
+}
+
+.handmadeCalculator .allInputBlock .inputBlock label{
+    display: block;
+}
+
+.handmadeCalculator .resultBlock {
+    display: inline-block;
+}
+
+.handmadeCalculator .resultBlock label{
+    display: block;
+}
+
+.handmadeCalculator .logBlock {
+    display: inline-block;
+    padding: 15px;
+}
+
+.handmadeCalculator .logBlock label{
+    display: block;
+}
+
+.handmadeCalculator .mathButtonsBlock .mathButtons {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+.resultArea {
+    width: 400px;
+    height: 50px;
+}
+
+.calcButtons {
+
+}
+
+.handmadeCalculator .resultBlock {
+    padding: 15px;
+}
+
+.inputDefaultClass {
+    border-color: blue;
+    border-width: 2px;
+}
+
+.inputRightClass {
+    border-color: lawngreen;
+    border-width: 2px;
+}
+
+.inputErrorClass {
+    border-color: red;
+    border-width: 2px;
+}
+
+.inputArea {
+}
+
+.firstName {
+}
+
+.secondName {
+}
+
+.hometown {
+}
+
+#resultWord {
+    padding-bottom: 10px;
+}
